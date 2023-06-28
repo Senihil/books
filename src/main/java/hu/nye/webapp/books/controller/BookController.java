@@ -1,7 +1,6 @@
 package hu.nye.webapp.books.controller;
 
 import hu.nye.webapp.books.dto.BookDTO;
-import hu.nye.webapp.books.entity.BookEntity;
 import hu.nye.webapp.books.exception.BookValidationException;
 import hu.nye.webapp.books.service.BookService;
 import org.springframework.http.ResponseEntity;
@@ -9,7 +8,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.event.ListDataEvent;
 import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
